@@ -65,7 +65,6 @@ table {
 
 }
 
-
 .divBorder {
     padding: 5px 15px;
     border: 1px solid black;
@@ -79,44 +78,24 @@ h4 {
     border-radius: 10px 0 0 0;
     margin-top: 20px;
     background-color: #d6ff00;
-    min-height: 75px;
     line-height: 75px;
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     display: flex;
     justify-content: space-between;
+    width: 71%;
 
-}
-
-
-.sidebar {
-    background-color: #dedede;
-    float: left;
-    margin-right: 10px;
-    max-width: 200px;
-    min-width: 150px;
-}
-.sidebar1 {
-    background-color: #35d5be;
-    float: right;
-    margin-left: 10px;
-    max-width: 200px;
 }
 
 .contacts {
+    width: 20%;
     background: darkgrey;
     float: right;
-    min-height: 75px;
-    line-height: 75px;
+    min-height: 60px;
+    line-height: 28.5px;
     margin-left: 10px;
     border-radius: 0 10px 0 0;
-}
+    justify-content: space-between;
 
-.container {
-    text-align: justify;
-    background: cyan;
-    margin-bottom: 10px;
-    border-radius: 0 0 10px 10px;
 }
 
 .shadow {
@@ -142,15 +121,71 @@ h4 {
 }
 
 .first {
-    height: 50px;
-    background: blue;
+    height: 770px;
+    background: #b7cedc;
     flex-grow: 3;
-    margin-right: 200px;
+    width: 30%;
 
 }
 
 .second {
-
-    background: white;
+    background: #b7cedc;
+    height: 770px;
     flex-grow: 7;
+    width: 70%;
+}
+
+.third {
+    height: 770px;
+    background: #b7cedc;
+    flex-grow: 3;
+    margin-left: 10px;
+    width: 30%;
+}
+
+.menu {
+    margin-top: 30%;
+    background: #b7cedc;
+    height: 35%;
+}
+
+.devs {
+    margin-top: 30%;
+    background: rgba(255, 165, 165, 0.56);
+    height: 35%;
+}
+
+.category-wrap {
+    width: 200px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.category-wrap h3 {
+    font-size: 16px;
+    color: rgba(0,0,0,.6);
+    margin: 0 0 10px;
+    padding: 0 5px;
+    position: relative;
+}
+
+.category-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.category-wrap li {margin: 12px 0 0 0px;}
+
+.category-wrap a {
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    padding: 5px;
+    position: relative;
+    transition: .3s linear;
+}
+
+.category-wrap a:hover {
+    background: #80C8A0;
+    color: white;
 }
