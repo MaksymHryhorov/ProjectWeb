@@ -1,15 +1,15 @@
-.backgroundMain{
+.backgroundMain {
     overflow: auto; /* Добавляем полосы прокрутки */
     background-image: url("images/Untitled.png");
 }
 
-.linkResume{
+.linkResume {
     font-size: 120%;
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
 }
 
-.borderLinkMain{
+.borderLinkMain {
     padding: 12px;
     border: 5px solid #3fc7c7;
     font-size: 18px;
@@ -26,20 +26,20 @@ table {
 
 }
 
-.backgroundResume{
+.backgroundResume {
     overflow: auto; /* Добавляем полосы прокрутки */
     padding-left: 15px; /* Отступ от текста слева */
     background-image: url("images/dark.jpg");
 }
 
-.newFont{
+.newFont {
     color: #d6ff00;
     font-size: 120%;
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
 }
 
-.boxTable{
+.boxTable {
     background: #d6ff00; /* Цвет фона */
     border: 3px solid #333; /* Граница вокруг ячеек */
     padding: 5px; /* Поля в ячейках */
@@ -47,7 +47,7 @@ table {
     font-size: 120%;
 }
 
-.borderLinkResume{
+.borderLinkResume {
     padding: 12px;
     border: 3px solid #25c7c7;
     font-size: 18px;
@@ -56,3 +56,101 @@ table {
     margin: auto;
 }
 
+/*Головна страниця*/
+
+.tbody {
+    background: #b7cedc;
+    max-width: 920px;
+    margin: 0 auto;
+
+}
+
+
+.divBorder {
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+h4 {
+    text-align: center;
+}
+
+.header {
+    border-radius: 10px 0 0 0;
+    margin-top: 20px;
+    background-color: #d6ff00;
+    min-height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.sidebar {
+    background-color: #dedede;
+    float: left;
+    margin-right: 10px;
+    max-width: 200px;
+    min-width: 150px;
+}
+.sidebar1 {
+    background-color: #35d5be;
+    float: right;
+    margin-left: 10px;
+    max-width: 200px;
+}
+
+.contacts {
+    background: darkgrey;
+    float: right;
+    min-height: 75px;
+    line-height: 75px;
+    margin-left: 10px;
+    border-radius: 0 10px 0 0;
+}
+
+.container {
+    text-align: justify;
+    background: cyan;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.66);
+}
+
+.footer {
+    font-weight: bold;
+    color: #fff;
+    background: #505050;
+    min-height: 30px;
+    line-height: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.66);
+}
+
+.ne {
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+
+}
+
+.first {
+    height: 50px;
+    background: blue;
+    flex-grow: 3;
+    margin-right: 200px;
+
+}
+
+.second {
+
+    background: white;
+    flex-grow: 7;
+}
