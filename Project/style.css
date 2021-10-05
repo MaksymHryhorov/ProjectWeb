@@ -61,6 +61,8 @@ table {
 .tbody {
     margin-left: 250px;
     margin-right: 250px;
+    overflow: auto
+
 }
 
 .divBorder {
@@ -69,12 +71,14 @@ table {
 }
 
 .header {
+    display: block;
     border-radius: 10px 0 0 0;
     line-height: 40px;
     margin-bottom: 75px;
 }
 
 .contacts {
+    display: block;
     float: right;
 }
 
@@ -84,13 +88,9 @@ table {
 
 .footer {
     margin-top: 15px;
-    font-weight: bold;
-    color: #fff;
-    background: #505050;
-    min-height: 30px;
-    line-height: 30px;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.66);
+    min-height: 15px;
+    line-height: 20px;
+    text-align: center;
 }
 
 .main {
