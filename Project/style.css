@@ -76,9 +76,6 @@ table {
 
 .contacts {
     float: right;
-    min-height: 60px;
-    border-radius: 0 10px 0 0;
-
 }
 
 .shadow {
@@ -96,33 +93,33 @@ table {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.66);
 }
 
-.ne {
+.main {
     padding-top: 15px;
     display: flex;
     flex-flow: row nowrap;
     margin: 0;
-
 }
 
-.first {
-    height: 770px;
+.align {
     flex-grow: 3;
 }
 
-.second {
+.content {
+    text-align: center;
     flex-grow: 7;
     width: 50%;
 }
 
-.third {
+.ads {
+    text-align: right;
     height: 770px;
     flex-grow: 3;
     margin-left: 10px;
 }
 
-.devs {
-    margin-top: 70%;
-    height: 300px;
+.counter {
+    margin-top: 100%;
+    height: 150px;
 }
 
 .category-wrap {
@@ -165,16 +162,25 @@ table {
     font-family: "Comic Sans MS", Comic Sans, cursive;
 }
 
-.shrift {
+.fontCursive {
     color: black;
     font-family: "Comic Sans MS", Comic Sans, cursive;
     text-decoration: white;
 }
 
+.fontName {
+    flex-grow: 3;
+}
+
+.asd {
+    text-align: center;
+    margin: 0 0 0 0;
+}
 .cw {
     width: 192px;
     font-family: "Comic Sans MS", Comic Sans, cursive;
 }
+
 .cw ul {
     list-style: none;
     margin: 0;
@@ -187,15 +193,16 @@ table {
 .cw a {
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0,0,0,.6);
-    padding: 3px;
+    padding: 5px;
     text-align: center;
     position: absolute;
     transition: .3s linear;
     border-radius: 10px 10px 10px 10px;
 
 }
+
 .cw a:hover {
     background: black;
     color: #b0aeae;
