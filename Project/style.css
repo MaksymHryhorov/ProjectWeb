@@ -104,9 +104,11 @@ table {
 }
 
 .content {
+    padding: 0 10px;
     text-align: center;
-    flex-grow: 7;
+    flex-grow: 5;
     box-sizing: border-box;
+    margin-left: 35px;
 }
 
 .ads {
