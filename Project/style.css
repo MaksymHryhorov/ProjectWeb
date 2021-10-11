@@ -65,9 +65,9 @@ table {
 }
 
 .divBorder {
-    padding: 5px 15px;
-    border: 1px solid black;
-}
+     padding: 5px 15px;
+     border: 1px solid black;
+ }
 
 .header {
     display: block;
@@ -108,7 +108,7 @@ table {
     text-align: center;
     flex-grow: 5;
     box-sizing: border-box;
-    margin-left: 35px;
+    margin-left: 45px;
 }
 
 .ads {
@@ -126,7 +126,7 @@ table {
     font-family: "Helvetica Neue", Comic Sans MS, Comic Sans, cursive;
 }
 .category-wrap h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: rgba(0,0,0,.6);
     margin: 0 0 10px;
     padding: 0 5px;
@@ -207,6 +207,24 @@ table {
     color: #b0aeae;
 }
 
+.borderForCountry {
+    text-align: center;
+    border-bottom: 3px solid rgb(0, 14, 255);
+    width: 100px;
+    margin: auto;
+}
 
+.someText {
+    margin: 7px 0 35px 0;
+    font-size: 17px;
+}
 
+.next {
+    margin: auto;
+    text-align: center;
+}
 
+.change {
+    margin: auto;
+    width: 63%;
+}
