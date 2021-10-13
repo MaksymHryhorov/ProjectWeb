@@ -3,6 +3,11 @@
     background-image: url("images/Untitled.png");
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .linkResume {
     font-size: 120%;
     font-family: Arial, Verdana, sans-serif;
@@ -65,9 +70,9 @@ table {
 }
 
 .divBorder {
-     padding: 5px 15px;
-     border: 1px solid black;
- }
+    padding: 5px 15px;
+    border: 1px solid black;
+}
 
 .header {
     display: block;
@@ -125,9 +130,10 @@ table {
     width: 95px;
     font-family: "Helvetica Neue", Comic Sans MS, Comic Sans, cursive;
 }
+
 .category-wrap h3 {
     font-size: 20px;
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
     margin: 0 0 10px;
     padding: 0 5px;
     position: relative;
@@ -137,15 +143,18 @@ table {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-top: 1px solid rgba(0,0,0,.3);
+    border-top: 1px solid rgba(0, 0, 0, .3);
 }
-.category-wrap li {margin: 12px 0 0 0;}
+
+.category-wrap li {
+    margin: 12px 0 0 0;
+}
 
 .category-wrap a {
     text-decoration: none;
     display: block;
     font-size: 17px;
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
     padding: 5px;
     position: relative;
     transition: .3s linear;
@@ -175,6 +184,7 @@ table {
     text-align: center;
     margin: 0 0 0 0;
 }
+
 .cw {
     width: 192px;
     font-family: "Comic Sans MS", Comic Sans, cursive;
@@ -184,16 +194,18 @@ table {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-top: 1px solid rgba(0,0,0,.3);
+    border-top: 1px solid rgba(0, 0, 0, .3);
 }
 
-.cw li {margin: 0 0 0 0;}
+.cw li {
+    margin: 0 0 0 0;
+}
 
 .cw a {
     text-decoration: none;
     display: block;
     font-size: 15px;
-    color: rgba(0,0,0,.6);
+    color: rgba(0, 0, 0, .6);
     padding: 5px;
     text-align: center;
     position: absolute;
@@ -227,4 +239,40 @@ table {
 .change {
     margin: auto;
     width: 63%;
+}
+
+.textInBox {
+    font-size: 0.9em;
+    display: inline-block;
+    line-height: 1.1;
+}
+
+.box {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.paintT {
+    margin-top: 0;
+    transition: .5s ease-in-out;
+}
+
+.linkToCountry {
+    border-radius: 10px 10px 10px 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #e3e5e5;
+    margin: 0 auto;
+    color: black;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-size: 15px;
+}
+
+.linkToCountry:hover {
+    border-radius: 20px 20px 20px 20px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
 }
