@@ -105,11 +105,10 @@ table {
 }
 
 .align {
-    flex-grow: 3;
+    flex-grow: 4;
 }
 
 .content {
-    padding: 0 10px;
     text-align: center;
     flex-grow: 5;
     box-sizing: border-box;
@@ -129,6 +128,7 @@ table {
 .category-wrap {
     width: 95px;
     font-family: "Helvetica Neue", Comic Sans MS, Comic Sans, cursive;
+    margin-bottom: 150px;
 }
 
 .category-wrap h3 {
@@ -267,7 +267,7 @@ table {
     margin: 0 auto;
     color: black;
     font-family: "Comic Sans MS", Comic Sans, cursive;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .linkToCountry:hover {
@@ -276,3 +276,12 @@ table {
     height: 50px;
     box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
 }
+
+.card {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    color: black;
+}
+
