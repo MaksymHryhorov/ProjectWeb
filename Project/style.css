@@ -61,6 +61,9 @@ table {
     margin: auto;
 }
 
+.z {
+
+}
 /*Головна страниця*/
 
 .tbody {
@@ -104,9 +107,6 @@ table {
     flex-grow: 5;
     box-sizing: border-box;
     margin-left: 45px;
-}
-
-.ads {
 }
 
 .category-wrap {
@@ -230,12 +230,10 @@ table {
 .box {
     text-align: center;
     width: 50%;
-    margin: 0 auto 20px;
-    position: relative;
+    margin: 15px auto 20px;
 }
 
 .paintT {
-    margin-top: 0;
     transition: .5s ease-in-out;
 }
 
@@ -280,4 +278,8 @@ table {
     justify-content: space-between;
     text-align: center;
     margin-top: 17px;
+}
+
+.toCountry{
+    margin-top: 35px;
 }
