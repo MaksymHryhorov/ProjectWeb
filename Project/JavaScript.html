@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lr4.js"></script>
+    <script>
+        window.onload = function () {
+            const date = new Date('2021-01-01T00:00');
+            let currentDate = Date.parse(new Date());
+            let days = (currentDate - Date.parse(date)) / 86400000;
+            alert('Days have passed since the new year: ' + Math.round(days));
+        }
+    </script>
+
+
+</head>
+<body>
+<button type="submit" id="alert" onclick="passedFromNY()">submit</button>
+
+<form>
+    <br/>
+    <button><a href="index.html">Home</a></button>
+</form>
+
+</body>
+</html>
