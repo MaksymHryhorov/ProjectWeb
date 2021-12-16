@@ -8,11 +8,13 @@
 
 </head>
 
-<body class="tbody">
+<body class="tbody" onload="startTime2(); start(); changeIMG();">
 
 <div class="first">
     <div class="header text">
-        <h1>toTravel</h1>
+        <p><a href="https://javascript.ru/"
+              onClick="basicPopup(this.href);return false;"><img src="images/smallLogo.jpg"/></a></p>
+
     </div>
 
     <div class="cont cw">
@@ -33,17 +35,43 @@
                     <li><a target="_blank" href="countries/spain.html">Іспанія</a></li>
                     <li><a target="_blank" href="countries/czech.html">Чехія</a></li>
                     <li><a target="_blank" href="countries/italy.html">Італія</a></li>
+
+
+                    <div id="picContainer">
+                        <img src="images/picture1.jpg" alt="Cup with cat">
+                        <img src="images/picture2.jpg" alt="Cup with sheep">
+
+                    </div>
+
+                    <div id="picHolder" style="display: none;"></div>
+                    <script>
+                        var picHolder = document.getElementById("picHolder");
+                        var picContainer = document.getElementById("picContainer")
+
+                        picContainer.addEventListener('mouseover', function (event) {
+                            var target = event.target;
+                            console.log(target.tagName);
+                            if (target.tagName !== "IMG") picHolder.style.display = 'none';
+                            else {
+                                picHolder.style.backgroundImage = "url(" + target.src + ")";
+                                picHolder.style.display = 'block';
+                            }
+                        });
+                        picContainer.addEventListener('mouseout', function () {
+                            picHolder.style.display = 'none';
+                        });
+                    </script>
                 </ul>
+
             </div>
         </div>
-
 
 
         <div class="">
             <div>
                 <div class="">
                     <form id="form">
-                        <input class="toInput" type="text" id="text" prefix="asd" placeholder="YY-MM-DD" />
+                        <input class="toInput" type="text" id="text" prefix="asd" placeholder="YYYY-MM-DD"/>
                         <br/>
                         <button type="submit" id="submit" onclick="alerted()">submit</button>
                         <button type="reset">reset</button>
@@ -53,19 +81,21 @@
                 <div class="">
                     <br/>
                     <button><a href="JavaScript.html">Java Script</a></button>
+
                     <br><br/>
-                    <button type="" id="" onclick="passedTime()">Time Passed</button>
+                    <button onload="startTime()" type="" id="" onclick="startTime()">Time Passed</button>
+                    <div id="passedTime" class=""></div>
+                    <div id="timer"></div>
                 </div>
             </div>
         </div>
-
 
     </div>
 
     <div class="content">
 
         <div id="France" class="fontCursive next">
-            <img src="images/Msc.jpg" width="720" height="480" alt="img">
+            <img src="images/Msc.jpg" width="720" height="480" alt="img" title="img" class="old">
             <h2 class="borderForCountry">Франція</h2>
             <div class="change">
                 <p class="someText"><em><b>Le Mont-Saint-Michel</b></em><br>
@@ -94,7 +124,6 @@
                 </div>
             </div>
         </div>
-
         <div id="Czech" class="fontCursive next">
             <img src="images/czech.jpg" width="720" height="480" alt="img">
             <h2 class="borderForCountry">Чехія</h2>
@@ -110,7 +139,6 @@
                 </div>
             </div>
         </div>
-
         <div id="Italy" class="fontCursive next">
             <img src="images/rome.jpg" width="720" height="480" alt="img">
             <h2 class="borderForCountry">Італія</h2>
@@ -126,17 +154,22 @@
             </div>
         </div>
 
+
     </div>
 
     <div id="Ad">
         <img src="images/12.png" width="150" height="226" alt="ad"><br>
         <img src="images/12.png" width="150" height="226" alt="ad"><br>
-        <img src="images/12.png" width="150" height="226" alt="ad"><br>
+
+        <div class="footer"><a>Copyright 2021 &copy;<br/></a>
+            <span class="text a arrow disabled" id="timer2"></span>
+            <div class="text elementText" id="today"></div>
+
+        </div>
+
     </div>
 </div>
 
-
-<div class="footer">Copyright 2021 &copy; Всі права захищені</div>
 
 </body>
 

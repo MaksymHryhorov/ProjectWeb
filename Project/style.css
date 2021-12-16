@@ -83,7 +83,6 @@ table {
     display: block;
     border-radius: 10px 0 0 0;
     line-height: 40px;
-    margin-bottom: 75px;
 }
 
 .footer {
@@ -153,6 +152,12 @@ table {
 
 .text {
     font-family: "Comic Sans MS", Comic Sans, cursive;
+}
+
+button {
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .fontCursive {
@@ -286,9 +291,29 @@ table {
 }
 
 .toInput {
-    width: 100%;
+    width: 92%;
     margin-right: -30px;
     margin-bottom: 15px;
 }
 
+
+#picContainer {
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+#picContainer img {
+    width: 100px;
+    cursor: pointer;
+}
+
+#picHolder {
+    position: absolute;
+    top: 440px;
+    left: 125px;
+    width: 410px;
+    height: 275px;
+    border: 3px solid #ddd;
+    background: #fff no-repeat 5px 5px;
+}
 
